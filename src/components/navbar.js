@@ -6,7 +6,7 @@ import './style.css';
 function Topbar() {
 	return(
 	  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-  <Navbar.Brand href="#home">Professional</Navbar.Brand>
+  <Navbar.Brand href="#homepage">Professional</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     {/*<Nav className="mr-auto">
@@ -21,9 +21,9 @@ function Topbar() {
       </NavDropdown>
     </Nav>*/}
     <Nav>
-      <Nav.Link href="#deets">About</Nav.Link>
-      <Nav.Link href="#memes">Projects</Nav.Link>
-      <Nav.Link href="#deets">Contact</Nav.Link>
+      <Nav.Link href="">About</Nav.Link>
+      <Nav.Link href="">Projects</Nav.Link>
+      <Nav.Link href="">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>
 </Navbar>
