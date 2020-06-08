@@ -1,19 +1,23 @@
 import React, {Component} from 'react';
 import CustomParticle from './customparticle';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import {Button} from 'react-bootstrap';
 import './style.css';
 
 function Page(){
 	return(
-		<section id = 'homepage'>
+		<div id = 'homepage'>
 			<CustomParticle/>
 
 	         <div class = 'pagecut headerdiv'>
-	            <h1>Matthew's Personal Site</h1>
+	            <h1>Matthew Panizza</h1>
+	            <h2>Software Developer | Game Developer | Fullstack Developer</h2>
+	            <Button id='about'>About</Button>
 	         </div>
 
 	         <CustomParticle/>
 
-        </section>
+        </div>
 	)
 }
 
