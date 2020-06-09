@@ -7,6 +7,7 @@ function Topbar() {
 	return(
 	  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
   <Navbar.Brand href="#homepage">Professional</Navbar.Brand>
+  <Navbar.Brand href="#homepage">Personal</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     {/*<Nav className="mr-auto">
@@ -20,8 +21,8 @@ function Topbar() {
         <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
       </NavDropdown>
     </Nav>*/}
-    <Nav>
-      <Nav.Link href="">About</Nav.Link>
+    <Nav className="ml-auto">
+      <Nav.Link href="#aboutpage">About</Nav.Link>
       <Nav.Link href="">Projects</Nav.Link>
       <Nav.Link href="">Contact</Nav.Link>
     </Nav>

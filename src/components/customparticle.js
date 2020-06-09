@@ -6,7 +6,7 @@ function Custom(amount){
 
 	var w = window.innerWidth;
 	var h = window.innerHeight;
-	var amount = 60;
+	var amount = 50;
 
 	if(w < 600 || h < 900){
 		amount = 30;
@@ -15,12 +15,15 @@ function Custom(amount){
 	console.log(amount);
 
 	return(
-		<div class = 'pagecut'>
+		<div className = "pagecut">
 			<Particles
     			params={{
 	    			"particles": {
 	        			"number": {
-	            			"value":amount
+	            			"value":amount,
+	            			"density": {
+						        
+						      }
 	        			},
 	        			"color": {
 	        				"value":"#E6D8D8"

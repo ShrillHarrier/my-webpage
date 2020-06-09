@@ -6,17 +6,17 @@ import './style.css';
 
 function Page(){
 	return(
-		<div id = 'homepage'>
+		<div id = "homepage">
 			<CustomParticle/>
 
-	         <div class = 'pagecut headerdiv'>
+	         <div className = "pagecut headerdiv">
 	            <h1>Matthew Panizza</h1>
 	            <h2>Software Developer | Game Developer | Fullstack Developer</h2>
-	            <Button id='about'>About</Button>
+	            <hr id = "buttonline"></hr>
+	            <Button href = "#aboutpage" id="about">About</Button>
 	         </div>
 
 	         <CustomParticle/>
-
         </div>
 	)
 }
