@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import CustomParticle from './customparticle';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import {Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 function Page(){

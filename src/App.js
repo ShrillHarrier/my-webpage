@@ -18,8 +18,11 @@ class App extends Component{
 	    	<body>
 		    	<header>
 			      <NavBar/>
-			      <HomeSection/>
-		    </header>
+		    	</header>
+
+		    	<section>
+		    		<HomeSection/>
+		    	</section>
 
 			    <section>
 			    	<AboutSection/>

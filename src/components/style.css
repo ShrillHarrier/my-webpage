@@ -1,34 +1,53 @@
 #homepage{
 	background-size: cover;
-	background-color: #00C9C9;
+	background-color: #000053;
 	justify-content: center;
 	text-align: center;
+	display: block;
 }
 
 #aboutpage{
 	background-size: cover;
-	background-color: grey !important;
+	background-color: #00C9C9;
 	justify-content: center;
 	text-align: center;
+	display: flex;
 }
 
-/*.infotron{
-	padding-top: 10rem;
-	padding-bottom: 10rem;
-	padding-right: 10rem;
-	padding-left: 10rem;
+#holdtron{
+	background-size: cover;
+	background-color: skyblue;
 	justify-content: center;
+	text-align: center;
+	display: flex;
 }
 
-.infotron > h1{
-	font-weight: bold;
-}*/
+#infotron{
+	width: 80%;
+	height: 35rem;
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+	font-size: 2rem;
+	text-align: left;
+	background-image: linear-gradient(to bottom right, white, lightgrey);
+}
+
+#infotron > p{
+	margin-top: 1.3rem;
+}
+
+#infotron > h{
+	margin-top: -5rem;
+}
+
+.custombreak{
+	margin-top: 3.5rem;
+}
 
 .headerdiv{
 	font-size: 4rem;
 	text-shadow: 1px 1px lightgrey;
-	/*margin-top: -1em;
-	margin-bottom: 1em;*/
+	color: white;
 }
 
 .pagecut{
@@ -51,8 +70,8 @@
 	.headerdiv{
 		font-size: 4rem;
 		text-shadow: 1px 1px lightgrey;
-		margin-top: -2rem;
-		margin-bottom: 2rem;
+		margin-top: -3.5rem;
+		margin-bottom: 3.5rem;
 	}
 	.pagecut{
 		width: 100%;
@@ -64,12 +83,12 @@
 	}
 }
 
-@media only screen and (max-height: 900px) and (min-height: 700px){
+@media only screen and (min-height: 700px){
 	.headerdiv{
 		font-size: 4rem;
 		text-shadow: 1px 1px lightgrey;
-		margin-top: -2rem;
-		margin-bottom: 2rem;
+		margin-top: -3.5rem;
+		margin-bottom: 3.5rem;
 	}
 	.pagecut{
 		width: 100%;
@@ -78,6 +97,18 @@
 	.infotron{
 		width: 100%;
 		height: 50rem;
+	}
+}
+
+@media only screen and (max-width: 1000px){
+	#infotron{
+	font-size: 1.4rem;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	#infotron{
+	font-size: 1.1rem;
 	}
 }
 
@@ -101,6 +132,3 @@
 	margin-top: 4rem;
 	margin-bottom: -1rem;
 }
-
-
-
