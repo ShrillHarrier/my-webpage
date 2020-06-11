@@ -1,6 +1,6 @@
 #homepage{
 	background-size: cover;
-	background-color: #000053;
+	background-color: #00C9C9;
 	justify-content: center;
 	text-align: center;
 	display: block;
@@ -8,15 +8,7 @@
 
 #aboutpage{
 	background-size: cover;
-	background-color: #00C9C9;
-	justify-content: center;
-	text-align: center;
-	display: flex;
-}
-
-#holdtron{
-	background-size: cover;
-	background-color: skyblue;
+	background-color: #000053;
 	justify-content: center;
 	text-align: center;
 	display: flex;
@@ -29,7 +21,7 @@
 	margin-bottom: 6rem;
 	font-size: 2rem;
 	text-align: left;
-	background-image: linear-gradient(to bottom right, white, lightgrey);
+	background-image: linear-gradient(to bottom right, white, skyblue);
 }
 
 #infotron > p{
@@ -47,7 +39,7 @@
 .headerdiv{
 	font-size: 4rem;
 	text-shadow: 1px 1px lightgrey;
-	color: white;
+	color: black;
 }
 
 .pagecut{
