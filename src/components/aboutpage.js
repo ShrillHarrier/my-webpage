@@ -14,7 +14,13 @@ function Page(){
 		            <div className = "custombreak"></div>
 		            <p><b>Langauges:</b> Java, Javascript, Python, C++, C#<br></br><b>Tools:</b> HTML/CSS, Unity, ReactJS, BootStrap4</p>
 				</Jumbotron>
-
+				<div className="flexdiv">
+					<a href="http://www.uwaterloo.ca/engineering"><img className = "aboutimg" src = "https://www.brocksolutions.com/wp-content/uploads/2020/02/University-of-Waterloo-1080x675.jpg"></img></a>
+					<a href="http://www.uwaterloo.ca/engineering"><img className = "aboutimg" src = "https://www.brocksolutions.com/wp-content/uploads/2020/02/University-of-Waterloo-1080x675.jpg"></img></a>
+					<a href="http://www.uwaterloo.ca/engineering"><img className = "aboutimg" src = "https://www.brocksolutions.com/wp-content/uploads/2020/02/University-of-Waterloo-1080x675.jpg"></img></a>
+					<a href="http://www.uwaterloo.ca/engineering"><img className = "aboutimg" src = "https://www.brocksolutions.com/wp-content/uploads/2020/02/University-of-Waterloo-1080x675.jpg"></img></a>
+					<a href="http://www.uwaterloo.ca/engineering"><img className = "aboutimg" src = "https://www.brocksolutions.com/wp-content/uploads/2020/02/University-of-Waterloo-1080x675.jpg"></img></a>
+				</div>
 				{/*<Jumbotron id = "infotron">
 					<p><b>Langauges:</b> Java, Javascript, Python, C++, C#<br></br><b>Tools:</b> HTML/CSS, Unity, ReactJS, BootStrap4</p>
 				</Jumbotron>*/}

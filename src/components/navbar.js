@@ -23,7 +23,7 @@ function Topbar() {
     </Nav>*/}
     <Nav className="ml-auto">
       <Nav.Link href="#aboutpage">About</Nav.Link>
-      <Nav.Link href="">Projects</Nav.Link>
+      <Nav.Link href="#projectpage">Projects</Nav.Link>
       <Nav.Link href="">Contact</Nav.Link>
     </Nav>
   </Navbar.Collapse>

@@ -14,11 +14,16 @@ function Page(){
 	            <h2>Software Developer | Game Developer | Fullstack Developer</h2>
 	            <hr id = "buttonline"></hr>
 	            <Button href = "#aboutpage" id="about">About</Button>
+	        	{/*add git, linken, resume links here*/}
 	         </div>
 
 	         <CustomParticle/>
         </div>
 	)
+}
+
+function scrollto(){
+
 }
 
 export default Page;
