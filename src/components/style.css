@@ -17,6 +17,24 @@
 }
 
 #projectpage{
+	background-size: cover;
+	background-color: #1CA1A6;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.carddiv{
+	display: flex;
+	flex-direction: row;
+}
+
+.projectcard{
+	width: auto;
+	height: 25rem;
+	margin: 1rem;
 }
 
 #infotron{
@@ -43,7 +61,7 @@
 }
 
 .aboutimg{
-	width: auto;
+	width: 12rem;
 	height: 7rem;
 	z-index: 100;
 }
@@ -129,15 +147,21 @@
 	}
 }
 
-@media only screen and (max-width: 1000px) and (min-width: 550px){
+@media only screen and (max-width: 1000px) and (min-width: 600px){
 	#infotron{
 	font-size: 1.4rem;
 	}
+	.aboutimg{
+		width: 12rem;
+	}
 }
 
-@media only screen and (max-width: 550px) and (min-width: 400px){
+@media only screen and (max-width: 600px) and (min-width: 400px){
 	#infotron{
 	font-size: 1.1rem;
+	}
+	.aboutimg{
+		width: 10rem;
 	}
 }
 
@@ -145,4 +169,10 @@
 	#infotron{
 		font-size: 0.8rem;
 	}
+	.aboutimg{
+		width: 9rem;
+	}
+	.carddiv{
+		flex-direction: column;
+}
 }
