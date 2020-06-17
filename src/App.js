@@ -4,8 +4,8 @@ import './App.css';
 import HomeSection from './components/homepage';
 import AboutSection from './components/aboutpage';
 import ProjectSection from './components/projectpage';
+import ContactSection from './components/contactpage'
 import NavBar from './components/navbar';
-
 
 class App extends Component{
 	constructor() {
@@ -31,6 +31,10 @@ class App extends Component{
 
 			    <section>
 			    	<ProjectSection/>
+			    </section>
+
+			    <section>
+			    	<ContactSection/>
 			    </section>
 
 			    <footer>

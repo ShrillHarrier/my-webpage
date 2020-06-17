@@ -22,8 +22,4 @@ function Page(){
 	)
 }
 
-function scrollto(){
-
-}
-
 export default Page;

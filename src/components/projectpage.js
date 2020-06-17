@@ -6,8 +6,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function Page(){
 	return(
 		<div id = "projectpage">
-			<div>
-				<h1>::myProjects::</h1>
+			<div className ="topdiv">
+				<h1>My Projects</h1>
 			</div>
 			<div className = "carddiv">
 				<Card className="projectcard">
