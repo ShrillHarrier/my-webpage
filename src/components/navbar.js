@@ -6,8 +6,8 @@ import './style.css';
 function Topbar() {
 	return(
 	  <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
-  <Navbar.Brand href="#homepage">Professional</Navbar.Brand>
-  <Navbar.Brand href="#homepage">Personal</Navbar.Brand>
+  <Navbar.Brand href="#homepage">Home</Navbar.Brand>
+  {/*<Navbar.Brand href="#homepage">Personal</Navbar.Brand>*/}
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     {/*<Nav className="mr-auto">
