@@ -4,7 +4,8 @@ import './App.css';
 import HomeSection from './components/homepage';
 import AboutSection from './components/aboutpage';
 import ProjectSection from './components/projectpage';
-import ContactSection from './components/contactpage'
+import ContactSection from './components/contactpage';
+import PageFooter from './components/footer';
 import NavBar from './components/navbar';
 
 class App extends Component{
@@ -38,6 +39,7 @@ class App extends Component{
 			    </section>
 
 			    <footer>
+			    	<PageFooter/>
 			    </footer>
 			</body>
 	      )
