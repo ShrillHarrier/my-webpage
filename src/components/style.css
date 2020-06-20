@@ -226,6 +226,7 @@ html,body {
 @media only screen and (max-width: 1000px) and (min-width: 660px){
 	#infotron{
 	font-size: 1.4rem;
+	overflow-y: scroll;
 	}
 	.aboutimg{
 		width: 12rem;
@@ -235,6 +236,7 @@ html,body {
 @media only screen and (max-width: 660px) and (min-width: 400px){
 	#infotron{
 	font-size: 1.1rem;
+	overflow-y: scroll;
 	}
 	.aboutimg{
 		width: 10rem;
@@ -244,6 +246,7 @@ html,body {
 @media only screen and (max-width: 400px){
 	#infotron{
 		font-size: 0.8rem;
+		overflow-y: scroll;
 	}
 	.aboutimg{
 		width: 9rem;
