@@ -13,7 +13,7 @@ function Page(){
 			<div className="flexdiv">
 				<Jumbotron id ="contacttron">
 					<p>Email: <a href="mpanizza@uwaterloo.ca">mpanizza@uwaterloo.ca</a></p>
-					<p>Phone: <a id="phone">+1 901-301-3601</a></p>
+					<p>Phone: <a id="phone">+1 905-301-3601</a></p>
 					<p>Github: <a href="https://www.github.com/shrillharrier">View My Github</a></p>
 					<p>Linkedin: <a href="https://www.linkedin.com/in/matthew-panizza-b726a0191/">View My Linkedin</a></p>
 				</Jumbotron>

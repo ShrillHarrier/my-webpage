@@ -1,11 +1,12 @@
 html,body {
-  scroll-behavior: smooth;
   width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
   overflow-x:hidden;
 }
 
 #homepage{
-	background-size: cover;
+	background-size: 100%;
 	background-color: #00C9C9;
 	justify-content: center;
 	text-align: center;
@@ -52,6 +53,17 @@ html,body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+#partup{
+	margin-top: 5rem;
+	margin-bottom: -5rem;
+	position: fixed;
+}
+
+#partdown{
+	margin-top: -3rem;
+	padding-bottom: 3rem;
 }
 
 #icondiv{

@@ -6,7 +6,7 @@ function Custom(amount){
 
 	var w = window.innerWidth;
 	var h = window.innerHeight;
-	var amount = 50;
+	var amount = 60;
 
 	if(w < 600 || h < 900){
 		amount = 30;
