@@ -14,7 +14,7 @@ function Page(){
 				<ProjectCard 
 				name = "Picnic Ability"
 				img="https://developer.apple.com/design/human-interface-guidelines/accessibility/images/accessibility-icon_2x.png"
-				info="A website dedicated to helping people with accessibility issues find convientient travel destinations."
+				info="A website dedicated to helping people with accessibility issues find convenient travel destinations."
 				link="https://github.com/ShrillHarrier/picnic-ability"
 				tools="ReactJS, NodeJS, PostgreSQL"/>
 				<ProjectCard
