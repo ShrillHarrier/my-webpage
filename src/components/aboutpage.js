@@ -9,10 +9,10 @@ function Page(){
 		<div id = "aboutpage">
 			<Jumbotron id = "infotron">
 				<h><b>Welcome!</b></h>
-				<p>My name is Matthew Panizza. I am a Computer Engineering student at the University of Waterloo.</p>
+				<p>My name is Matthew Panizza. I am a <b>2A Computer Engineering</b> student at the University of Waterloo.</p>
 			    <p>Currently, I am focusing on learning: <b>Fullstack</b> Development, <b>Software</b> Development, and <b>Game</b> Development.</p>
 				<div className = "custombreak"></div>
-				<p><b>Langauges:</b> Java, Javascript, Python, C++, C#<br></br><b>Tools:</b> HTML/CSS, ReactJS, BootStrap4, Unity</p>
+				<p><b>Langauges:</b> Java, Javascript, Python, SQL, C++, C#<br></br><b>Tools:</b> HTML/CSS, ReactJS, NodeJS, BootStrap4, Unity, Postman</p>
 		    </Jumbotron>
 			<div className="flexdiv" id = "aboutborder">
 				<Card>

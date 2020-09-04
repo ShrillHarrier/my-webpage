@@ -3,18 +3,29 @@ import {Button, Card} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
-function Page(){
-	return(
-		<Card className="projectcard">
-			<Card.Body>
-				<Card.Title><b>Coming Soon</b></Card.Title>
-				<Card.Text>
-					Check back soon for information on my projects.
-				</Card.Text>
-				{/*<Button variant="primary">Go somewhere</Button>*/}
-			</Card.Body>
-		</Card>
-	)
+class ProjectCard extends Component{
+	constructor(props) {
+	    super();
+	    this.state = {
+	      }
+	}
+
+	render() {
+		return(
+			<Card className="bg-light border-light text-dark projectcard">
+				<Card.Body>
+					<Card.Title><b>{this.props.name}</b></Card.Title>
+					<img id="cardimg" src={this.props.img}></img>
+					<Card.Text>
+						{this.props.info}
+					</Card.Text>
+					<div>{this.renderbutton}</div>
+					<Button variant = "dark" href={this.props.link}>View On Github</Button>
+					<div id="cardmargin"><b>Used:</b> {this.props.tools}</div>
+				</Card.Body>
+			</Card>
+		)
+	}
 }
 
-export default Page;
+export default ProjectCard;
