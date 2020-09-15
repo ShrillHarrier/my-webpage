@@ -293,7 +293,7 @@ html,body {
 	}
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 460px){
 	#infotron{
 		font-size: 0.8rem;
 		overflow-y: scroll;
