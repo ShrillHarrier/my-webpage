@@ -36,7 +36,7 @@ function Page(){
 					img="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/32e5f5fd-88dd-4409-b61d-d364a6346d8a/dbjsw33-cce51e46-f2c8-4e8b-b450-fcdf4a4c95a6.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzJlNWY1ZmQtODhkZC00NDA5LWI2MWQtZDM2NGE2MzQ2ZDhhXC9kYmpzdzMzLWNjZTUxZTQ2LWYyYzgtNGU4Yi1iNDUwLWZjZGY0YTRjOTVhNi5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.CKJ3nn4roJO1fNG4CDJJRNL2kvFpyT-4Ja7WSxftjYM"
 					info="A software application that allows users to draw detailed mock-ups and sketches."
 					link="https://github.com/ShrillHarrier/Scribble-App"
-					tools="Python3, Tkinter Lybrary"/>
+					tools="Python3, Tkinter Library"/>
 			</div>
 		</div>
 		);
