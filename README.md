@@ -1,3 +1,5 @@
+This webpage is my personal portfolio with information related to my academic and professional career. 
+
 ## Available Scripts
 
 In the project directory, you can run:
